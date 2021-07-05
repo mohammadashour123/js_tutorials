@@ -1,0 +1,75 @@
+*
+{
+    padding:  0 ; 
+    margin: 0; 
+    box-sizing: border-box; 
+    text-transform: capitalize;
+
+}
+body
+{
+    background-color: #fff;
+    color: black; 
+    font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+    width: 350px; 
+    margin: 130px auto; 
+
+}
+.container h2 
+{
+    margin: 15px 0 ; 
+    text-align: center;
+    font-size: 30px;
+}
+input 
+{
+    padding: 10px 10px;
+    width: 100%  ;
+    margin-bottom: 20px ;
+    outline: 0 ; 
+    border: 0; 
+}
+hr 
+{
+    margin-bottom: 5px ;
+    border: 1px solid black ; 
+    
+   
+}
+#submit-btn
+{
+    margin: 10px auto;
+    padding: 15px 20px ; 
+    text-align: center;
+    cursor: pointer;
+    outline: 0 ; 
+    border: 0; 
+    position: relative;
+    left: 30% ;
+    transition: 0.4s  ;
+    border-radius: 3px
+}
+#submit-btn:hover
+{
+    background-color: black ; 
+    color: #FFF
+}
+.show-age
+{
+    text-align: center ; 
+    margin: 10px auto ; 
+     font-size: 25px ;
+}
+.display-age
+{
+    
+     color: #f5e207 
+}
+.show-age 
+{
+    font-size:20px  ; 
+    padding-bottom: 10px ; 
+}
